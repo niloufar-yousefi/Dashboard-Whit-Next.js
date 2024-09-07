@@ -2,10 +2,13 @@
 
 **Analysis data whit chast and table**
 
-
-![architect 1](https://github.com/niloufar-yousefi/Rethink-architecture-site/assets/156951582/e2aef283-a4c2-486f-a5ec-be66b850b9f7)
-![architect 2](https://github.com/niloufar-yousefi/Rethink-architecture-site/assets/156951582/ce9e9371-fe61-4c4e-9bfb-47a9b0717884)
-![architect 3](https://github.com/niloufar-yousefi/Rethink-architecture-site/assets/156951582/c621a21e-2224-423f-bfea-595a320f95f2)
+![1](https://github.com/user-attachments/assets/54434985-3452-42f9-9b8f-0ae75b8e3d36)
+![2](https://github.com/user-attachments/assets/9f29ef99-a8a2-4525-92db-9713f0266cd0)
+![3](https://github.com/user-attachments/assets/4683eff2-fe81-4186-a650-0774d0fae76a)
+![4](https://github.com/user-attachments/assets/13d5b00c-4c79-4f1e-80b3-c028b43eba5d)
+![5](https://github.com/user-attachments/assets/ade2e731-63c6-4b7d-8515-8d08bbe2b0bc)
+![6](https://github.com/user-attachments/assets/dd609542-9de8-40d4-8dda-e8c89f954e71)
+![7](https://github.com/user-attachments/assets/a50b997e-be79-45ea-a96f-c5da5561b0bb)
 
 
 - [Demo Project](https://dashboard-whit-next-js.vercel.app/)
