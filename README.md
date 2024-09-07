@@ -16,7 +16,7 @@
 
 - Created - 2024-03
 
-- Technologies Used -Next.js, React,MUI,Formik,Yup,Leaflet,Chart.js
+- Technologies Used -Next.js, React,MUI,Formik,Yup,Leaflet,Chart.js,Tailwind 
 
 
 - Role - Frontend
