@@ -97,7 +97,7 @@ export default function RootLayout({ children }) {
       <List>
         {['Dashboard', 'Administration', 'Customers', 'Logout'].map((text, index) => (
           <ListItem key={text} disablePadding>
-            <Link href={`/${text === 'Dashboard' ? '' : text}`} passHref style={{ textDecoration: 'none', color: 'inherit', width: '100%' }}>
+            <Link href={`/dashboard/${text === 'Dashboard' ? '' : text}`} passHref style={{ textDecoration: 'none', color: 'inherit', width: '100%' }}>
               <ListItemButton>
                 <ListItemIcon>
                   {text === 'Dashboard' && <HomeIcon />}
