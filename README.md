@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dashboard 
 
-## Getting Started
+**Analysis data whit chast and table**
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![architect 1](https://github.com/niloufar-yousefi/Rethink-architecture-site/assets/156951582/e2aef283-a4c2-486f-a5ec-be66b850b9f7)
+![architect 2](https://github.com/niloufar-yousefi/Rethink-architecture-site/assets/156951582/ce9e9371-fe61-4c4e-9bfb-47a9b0717884)
+![architect 3](https://github.com/niloufar-yousefi/Rethink-architecture-site/assets/156951582/c621a21e-2224-423f-bfea-595a320f95f2)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- [Demo Project](https://dashboard-whit-next-js.vercel.app/)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Developed by Niloofar Yoosefi
 
-## Learn More
+- Created - 2024-03
 
-To learn more about Next.js, take a look at the following resources:
+- Technologies Used -Next.js, React,MUI,Formik,Yup,Leaflet,Chart.js
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Role - Frontend
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- How to reach me : with my [instagram](https://github.com/niloufar-yousefi) and [linkedin](https://www.linkedin.com/in/niloofar-yoosefikhorram-242742143/)
