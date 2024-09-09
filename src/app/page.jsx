@@ -61,9 +61,9 @@ export default function SquareCorners() {
               </Grid>
 
               <Grid size={12} sx={{ height: '40%' }} className='pb-8 font-sans text-md  text-slate-100'>
-                <div className=' h-[100px]'><p className='text-justify'>
-                  This is a dashboard that develoed by <span className='text-slate-400 '>Niloofar Yoosefi</span> whit Next.js and MUI and also using mockapi.<br/>
-                  io to get data .You can Create an account or use default of it to login.
+              <div className=' h-[100px]'><p className='text-justify'>
+                  This dashboard is develoed by <span className='text-slate-400 '>Niloofar Yoosefi</span> whit Next.js , MUI and also using mockapi 
+                   to get data .You can Create an account or use default words to login.
                 </p></div>
               </Grid>
 
