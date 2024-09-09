@@ -4,9 +4,9 @@ import './globals.css';
 import Stack from '@mui/material/Stack';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid2';
-import AssignmentTurnedInIcon from '@mui/icons-material/AssignmentTurnedIn';
-import AssignmentIcon from '@mui/icons-material/Assignment';
-import AssignmentIndIcon from '@mui/icons-material/AssignmentInd';
+import Diversity2TwoToneIcon from '@mui/icons-material/Diversity2TwoTone';
+import DownloadingTwoToneIcon from '@mui/icons-material/DownloadingTwoTone';
+import EqualizerTwoToneIcon from '@mui/icons-material/EqualizerTwoTone';
 import Image from 'next/image';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
@@ -67,11 +67,11 @@ export default function SquareCorners() {
                 </p></div>
               </Grid>
 
-              <Grid size={12} sx={{ height: '40%' }}>
-                <div className='flex justify-between bg-slate-400'>
-                  <AssignmentTurnedInIcon className='text-[#1020ab]  text-7xl border-2 border-[#1020ab] rounded-full p-2' />
-                  <AssignmentIcon className='text-[#1020ab]  text-7xl border-2 border-[#1020ab] rounded-full p-2' />
-                  <AssignmentIndIcon className='text-[#1020ab]  text-7xl border-2 border-[#1020ab] rounded-full p-2' />
+              <Grid size={12}  sx={{ height: '40%' }}>
+              <div className='flex h-[100px]  justify-between'>
+                  <Diversity2TwoToneIcon className='text-[#1020ab] text-7xl border-2 border-[#1020ab] rounded-full p-2' />
+                  <DownloadingTwoToneIcon className='text-[#1020ab]  text-7xl border-2 border-[#1020ab] rounded-full p-2' />
+                  <EqualizerTwoToneIcon className='text-[#1020ab] text-7xl border-2 border-[#1020ab] rounded-full p-2' />
                 </div>
               </Grid>
             </Grid>
