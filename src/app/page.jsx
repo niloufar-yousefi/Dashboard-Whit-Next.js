@@ -4,6 +4,9 @@ import './globals.css';
 import Stack from '@mui/material/Stack';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid2';
+import Diversity2TwoToneIcon from '@mui/icons-material/Diversity2TwoTone';
+import DownloadingTwoToneIcon from '@mui/icons-material/DownloadingTwoTone';
+import EqualizerTwoToneIcon from '@mui/icons-material/EqualizerTwoTone';
 import Image from 'next/image';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
@@ -64,9 +67,11 @@ export default function SquareCorners() {
                 </p></div>
               </Grid>
 
-              <Grid size={12}  sx={{ height: '40%' }}>
-              <div className='flex h-[100px]  justify-between'>
-              
+              <Grid size={12} className='' sx={{ height: '40%' }}>
+              <div className='flex h-[100px] justify-between'>
+              <Diversity2TwoToneIcon className='text-[#1020ab] border-2 border-[#1020ab] rounded-full' style={{ fontSize: '4rem' }} />
+                  <DownloadingTwoToneIcon className='text-[#1020ab] border-2 border-[#1020ab] rounded-full' style={{ fontSize: '4rem' }} />
+                  <EqualizerTwoToneIcon className='text-[#1020ab] border-2 border-[#1020ab] rounded-full' style={{ fontSize: '4rem' }} />
                 </div>
               </Grid>
             </Grid>
