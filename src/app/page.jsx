@@ -69,9 +69,7 @@ export default function SquareCorners() {
 
               <Grid size={12}  sx={{ height: '40%' }}>
               <div className='flex h-[100px]  justify-between'>
-                  <Diversity2TwoToneIcon className='text-[#1020ab] text-7xl border-2 border-[#1020ab] rounded-full p-2' />
-                  <DownloadingTwoToneIcon className='text-[#1020ab]  text-7xl border-2 border-[#1020ab] rounded-full p-2' />
-                  <EqualizerTwoToneIcon className='text-[#1020ab] text-7xl border-2 border-[#1020ab] rounded-full p-2' />
+              
                 </div>
               </Grid>
             </Grid>
