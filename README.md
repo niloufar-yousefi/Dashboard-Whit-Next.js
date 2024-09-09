@@ -10,7 +10,7 @@
 ![7](https://github.com/user-attachments/assets/a50b997e-be79-45ea-a96f-c5da5561b0bb)
 
 
-- [Demo Project](https://dashboard-whit-next-js-vid9.vercel.app/)
+- [Demo Project](https://dashboard-whit-next-js-55qf.vercel.app/)
 
 - Developed by Niloofar Yoosefi
 
