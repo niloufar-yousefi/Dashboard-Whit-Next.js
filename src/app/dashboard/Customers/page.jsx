@@ -6,7 +6,7 @@ import Button from '@mui/material/Button';
 import AddIcon from '@mui/icons-material/Add';
 import FilterIcon from '@mui/icons-material/Filter';
 import Table from './componentAd/Table';
-
+import Link from 'next/link';
 
 
 
@@ -27,20 +27,21 @@ export default function Customers() {
 
             {/* table */}
             <Grid size={{ xs: 12, md: 6 }} className='flex mt-4 md:mt-0 md:justify-end'>
-              <Button className='w-[150px] capitalize hover:underline  decoration-blue-500 decoration-4'
+              <Link href="./../../signup" className='w-[150px] capitalize hover:underline  decoration-blue-500 decoration-4'>
+                <Button
                 variant="contained"              
                 startIcon={<AddIcon />}
                 style={{ backgroundColor: 'transparent', color: '#4D70EB', fontFamily: 'sans-serif', border:'1px solid #4D70EB'}}
-                sx={{ boxShadow: '0 4px 6px rgba(0, 0, 0, 0.15)', '&:hover': { boxShadow: '0 6px 10px rgba(0, 0, 0, 0.25)', backgroundColor: '#e0e0e0' } }}
+                sx={{ fontSize:'12px' ,boxShadow: '0 4px 6px rgba(0, 0, 0, 0.15)', '&:hover': { boxShadow: '0 6px 10px rgba(0, 0, 0, 0.25)', backgroundColor: '#e0e0e0' } }}
               >
                 Create New
               </Button>
-              
+              </Link>
               <Button className='w-[150px] capitalize hover:underline decoration-blue-500 decoration-4'
                 variant="contained"
                 color="primary"
                 startIcon={<FilterIcon />}
-                style={{ backgroundColor: 'transparent', color: '#4D70EB', fontFamily: 'sans-serif', boxShadow: 'none',display:'flex',justifyContent:'flex-end' }}
+                style={{fontSize:'12px' ,backgroundColor: 'transparent', color: '#4D70EB', fontFamily: 'sans-serif', boxShadow: 'none',display:'flex',justifyContent:'flex-end' }}
               >
                 Filter
               </Button>
