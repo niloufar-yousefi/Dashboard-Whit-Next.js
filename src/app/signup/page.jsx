@@ -79,9 +79,9 @@ export default function SquareCorners() {
 
               <Grid size={12} sx={{ height: '40%' }}>
                 <div className='flex justify-between'>
-                  <AssignmentTurnedInIcon className='text-[#1020ab]  text-7xl border-2 border-[#1020ab] rounded-full p-2' />
-                  <AssignmentIcon className='text-[#1020ab]  text-7xl border-2 border-[#1020ab] rounded-full p-2' />
-                  <AssignmentIndIcon className='text-[#1020ab]  text-7xl border-2 border-[#1020ab] rounded-full p-2' />
+                  <AssignmentTurnedInIcon className='text-[#1020ab]   border-2 border-[#1020ab] rounded-full ' style={{ fontSize: '4rem' }} />
+                  <AssignmentIcon className='text-[#1020ab]   border-2 border-[#1020ab] rounded-full ' style={{ fontSize: '4rem' }} />
+                  <AssignmentIndIcon className='text-[#1020ab]   border-2 border-[#1020ab] rounded-full ' style={{ fontSize: '4rem' }} />
                 </div>
               </Grid>
             </Grid>
