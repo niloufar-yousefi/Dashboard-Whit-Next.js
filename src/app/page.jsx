@@ -68,7 +68,7 @@ export default function SquareCorners() {
               </Grid>
 
               <Grid size={12} sx={{ height: '40%' }}>
-                <div className='flex justify-between'>
+                <div className='flex justify-between bg-slate-400'>
                   <AssignmentTurnedInIcon className='text-[#1020ab]  text-7xl border-2 border-[#1020ab] rounded-full p-2' />
                   <AssignmentIcon className='text-[#1020ab]  text-7xl border-2 border-[#1020ab] rounded-full p-2' />
                   <AssignmentIndIcon className='text-[#1020ab]  text-7xl border-2 border-[#1020ab] rounded-full p-2' />
