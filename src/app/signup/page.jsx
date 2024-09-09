@@ -114,6 +114,8 @@ export default function SquareCorners() {
               createTask(values)
               console.log(values);
               setSubmitting(false);
+              router.push('/');
+
             }}
           >
             {({
@@ -162,10 +164,10 @@ export default function SquareCorners() {
                     error={Boolean(errors.password && touched.password)}
                   />
                 </Grid>
-                <Grid  xs={12} className='w-full flex justify-center'>
-                  <Button type="submit" disabled={isSubmitting} style={{ backgroundColor: '#1020ab', color: 'white', padding: '10px 20px', cursor: 'pointer', transition: 'background-color 0.3s ease-in-out', ':hover': { backgroundColor: '#0a1a2f' } }}>
+                <Grid  xs={12} className='w-full flex justify-center'>                
+                 <Button type="submit" disabled={isSubmitting} style={{ backgroundColor: '#1020ab', color: 'white', padding: '10px 20px', cursor: 'pointer', transition: 'background-color 0.3s ease-in-out', ':hover': { backgroundColor: '#0a1a2f' } }}>
                     Sign Up
-                  </Button>
+                  </Button>                
                 </Grid>
               </form>
             )}
