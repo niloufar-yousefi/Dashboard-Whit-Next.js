@@ -135,6 +135,7 @@ export default function RootLayout({ children }) {
                   <div>
                     <Button onClick={toggleDrawer1(true)}>
                       <FaAlignJustify className='text-2xl text-slate-600  cursor-pointer' />
+
                     </Button>
                     <Drawer open={open1} onClose={toggleDrawer1(false)}>
                       {DrawerList}
@@ -147,6 +148,7 @@ export default function RootLayout({ children }) {
                 <div className='w-5/12 flex  items-center'>
                   <div className="w-4/12 ">
                     <FaBookOpen className='text-2xl text-slate-600 cursor-pointer' />
+                    
                   </div>
                   <div className="w-4/12 ">
                     <FaUser className='text-2xl text-slate-600 cursor-pointer' />
@@ -158,7 +160,7 @@ export default function RootLayout({ children }) {
 
                 {/* mobile part3 */}
                 <div className='w-5/12 '>
-                  <React.Fragment>
+                  <div>
                     <Box className='pl-4 justify-end items-center' sx={{ display: 'flex', alignItems: 'center', textAlign: 'center' }}>
                       <Typography className='text-slate-600 text-xs md:text-xl  text-end' sx={{ minWidth: 100 }}>Contact</Typography>
                       <Typography className='text-slate-600 text-xs md:text-xl  ' sx={{ minWidth: 100 }}>Profile</Typography>
@@ -237,7 +239,7 @@ export default function RootLayout({ children }) {
                         Logout
                       </MenuItem>
                     </Menu>
-                  </React.Fragment>
+                  </div>
                 </div>
 
               </div>
@@ -390,8 +392,8 @@ export default function RootLayout({ children }) {
 
                   {/* desktop main part2-header */}
                   <div className="w-[30%] md:hidden lg:flex ">
-                    <React.Fragment>
-                      <Box className='pl-10 items-start pt-3 justify-end' sx={{ display: 'flex', alignItems: 'center', textAlign: 'center', width: '100%' }}>
+                    <div className=' w-full h-full'>
+                      <Box className='pl-10 items-start  pt-3 justify-end' sx={{ display: 'flex', alignItems: 'center', textAlign: 'center', width: '100%' }}>
                         <Tooltip className='w-[20%]' title="Account settings">
                           <IconButton
                             onClick={handleClick}
@@ -467,7 +469,7 @@ export default function RootLayout({ children }) {
                           Logout
                         </MenuItem>
                       </Menu>
-                    </React.Fragment>
+                    </div>
                   </div>
                 </div>
 
